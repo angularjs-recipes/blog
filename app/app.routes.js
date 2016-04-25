@@ -9,15 +9,15 @@
         $routeProvider
             .when('/', {
                 controller: 'PostsController as postsCtl',
-                templateUrl: 'app/views/postsPage.template.html'
+                templateUrl: 'app/views/posts.template.html'
             })
             .when('/posts/:postID/:slug', {
                 controller: 'PostController as postCtl',
-                templateUrl: 'app/views/postPage.template.html'
+                templateUrl: 'app/views/post.template.html'
             })
             .when('/error', {
                 controller: 'ErrorController as errorCtl',
-                templateUrl: 'app/views/errorPage.template.html'
+                templateUrl: 'app/views/error.template.html'
             })
             .otherwise({
                 redirectTo: '/'
