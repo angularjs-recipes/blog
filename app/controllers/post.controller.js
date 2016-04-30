@@ -3,9 +3,10 @@
         .module('blogApp')
         .controller('PostController', PostController);
 
-    PostController.$inject = [];
+    PostController.$inject = ['post'];
 
-    function PostController() {
+    function PostController(post) {
         var self = this;
+        self.post = post;
     }
 })();
