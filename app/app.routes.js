@@ -3,9 +3,11 @@
 		.module('blogApp')
 		.config(config);
 
-	config.$inject = ['$routeProvider'];
+	config.$inject = ['$routeProvider', '$locationProvider'];
 
-	function config($routeProvider) {
+	function config($routeProvider, $locationProvider) {
+		$locationProvider.hashPrefix('!');
+
 		$routeProvider
 			.when('/', {
 				controller: 'PostsController as postsCtl',

@@ -29,7 +29,10 @@ body {
     background-color: #fff;
 }
 .card-body {
-    padding: 15px;
+    padding: 24px 16px 16px;
+}
+.card-footer {
+    padding: 8px;
 }
 
 /* Header */
@@ -47,7 +50,7 @@ header .container {
     position: relative;
 }
 main {
-    padding: 100px 0 0;
+    padding: 100px 0 50px;
 }
 
 /* Social Icons */
@@ -180,13 +183,17 @@ textarea.form-control {
 }
 .btn {
     display: inline-block;
-    padding: 10px 15px;
+	min-width: 64px;
+	min-height: 36px;
+	line-height: 36px;
+    padding: 0 16px;
     background-color: #777;
     color: #fff;
     text-decoration: none;
     border-radius: 2px;
     text-transform: uppercase;
-    font-size: .8rem;
+    font-size: 14px;
+	font-weight: 500;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     text-align: center;
@@ -212,8 +219,9 @@ textarea.form-control {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
-.help-block {
-    margin-top: 5px;
-    color: #dd0000;
-    font-size: .8em;
+.btn.flat,
+.btn.flat:hover {
+	background-color: #fff;
+	color: #444;
+    box-shadow: none;
 }

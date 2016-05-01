@@ -1,4 +1,4 @@
 (function() {
 	'use strict';
-	angular.module('blogApp', ['ngRoute']);
+	angular.module('blogApp', ['ngRoute', 'angularUtils.directives.dirDisqus']);
 })();
