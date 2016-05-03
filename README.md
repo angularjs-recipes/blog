@@ -2,7 +2,7 @@
 
 We are here to create a modern Blog SPA with AngularJS 1.4.x. Let's have a quick look first:
 
-![Portfolio SPA](http://angularjs-recipes.com/img/series/1f6j1a.jpg)
+![Portfolio SPA](http://angularjs-recipes.com/img/series/1f6j1a.png)
 
 Follow steps below to bootstrap the application:
 
